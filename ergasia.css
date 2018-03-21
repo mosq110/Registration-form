@@ -1,0 +1,71 @@
+
+/*.title {
+	text-align: center;
+}
+
+.content li {
+	list-style:none;
+	text-align:center;
+	margin-top:2em;
+}
+
+.content li input {
+	display: block;
+	margin:auto;
+	width:20%;
+	height:1.5em;
+	border-radius:px;
+}
+
+
+@media only screen and (max-width:780px) {
+	.content li input {
+		width:65%;
+	}
+}*/
+
+/*-----------na ftiaksw menu mesa sto arxeio gia kalyteri anagnwsi ----------*/
+
+.wrapper {
+	text-align: center;
+	margin:auto;
+	padding:5em;
+}
+
+body {
+	background:grey;
+}
+
+.content {
+	background:green;
+	padding: 3em 0 3em 0;
+	position:relative;
+	overflow:hidden;
+}
+
+
+form {
+	
+	margin:auto;
+	width:50%;
+}
+
+ul {
+	list-style:none;
+}
+
+fieldset {
+	border-radius: 5px;
+}
+
+.content:before {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	border-width:0 200px 200px 0;
+	background:black;
+	border-color: #fff #fff #b3b3b3 #b3b3b3;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+	display:block;
+}
