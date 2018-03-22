@@ -8,9 +8,11 @@
 	<body>
 		<div class="wrapper">
 			<div class="content">
-				<div class="title">
+				
+				<div class="form">
+					<div class="title">
 					<h1> Registration </h1>
-				</div>
+					</div>
 				
 				<form>
 					<ul>
@@ -18,28 +20,29 @@
 							<fieldset>
 								<legend>Required</legend>
 							
+							<div class="username-password">
 							<li> 
 								<label> Username * <input type="text" name="name" placeholder="Username" required></label>
 							</li>
 							<li>
 								<label> Password * <input type="password" name="password" placeholder="Password" required></label>
-							</li>
-							
+							</li></div>
+							<div class="firstname-lastname">
 							<li>
 								<label> First name * <input type="text" name="firstname" placeholder="First name" required></label>
 							</li>
 							<li> 
 								<label> Last name * <input type="text" name="lastname" placeholder="Last name" required></label>
-							</li>
+							</li></div>
 							
-							
+							<div class="birth-email">
 							<li>
 								<label> Date of birth * 
 									<input type="date" name="date"  required></label>
 							</li>
 							<li>
 								<label> Email * <input type="email" name="email" placeholder="Email" required></label>
-							</li>
+							</li></div>
 						
 						</fieldset>
 						</div>
@@ -72,7 +75,7 @@
 						</div>
 						</div>
 					</ul>
-				</form>
+				</form></div>
 			</div>
 		</div>
 	</body>

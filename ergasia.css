@@ -41,19 +41,22 @@ body {
 	padding: 3em 0 3em 0;
 	position:relative;
 	overflow:hidden;
-	width:50em;
-	height:35em;
+	width:60em;
+	height:50em;
 	margin:0 auto;
 }
 
 .title {
-	margin:12em 0 0 2em;
+	margin:8em 0 0 2em;
+	padding-top:0.2em;
 }
 
 form {
 	
 	margin:0 auto;
-	width:50%;
+	width:25em;
+	font-size:1.5em;
+	color:white;
 }
 
 ul {
@@ -97,7 +100,64 @@ fieldset {
 	top:0;
 	left:0;
 	position:absolute;
-	border-width:0 25em 200px 25em;
+	border-width:0 30em 10em 30em;
 	border-style:solid;
 	border-color: #658E15 grey;
+}
+
+.form {
+	background:blue;
+	width:50em;
+	height:44em;
+	margin:auto;
+}
+
+.username-password, .firstname-lastname, .birth-email {
+	display:flex;
+}
+
+input {
+	margin:0 0 1.5em 0;
+	height:2em;
+	width:15em;
+}
+
+input[type="date"] {
+	height:2em;
+	margin-left:-2em;
+}
+
+input[type="email"] {
+	margin-left:-2em;
+}
+
+select {
+	width:15em;
+	height:2em;
+	margin:0 0 1.5em 0;
+}
+
+.optional {
+	margin-top:1em;
+	display:flex;
+}
+
+
+
+.required {
+	display:flex;
+}
+
+.confirmation {
+	margin-top:3em;
+}
+
+.confirmation button {
+	margin-top:4em
+	width:15em;
+	height:2em;
+}
+
+button {
+
 }
