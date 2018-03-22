@@ -41,12 +41,18 @@ body {
 	padding: 3em 0 3em 0;
 	position:relative;
 	overflow:hidden;
+	width:50em;
+	height:35em;
+	margin:0 auto;
 }
 
+.title {
+	margin:12em 0 0 2em;
+}
 
 form {
 	
-	margin:auto;
+	margin:0 auto;
 	width:50%;
 }
 
@@ -58,7 +64,7 @@ fieldset {
 	border-radius: 5px;
 }
 
-.content:before {
+/*.content:before {
 	content:"";
 	position:absolute;
 	top:0;
@@ -68,4 +74,30 @@ fieldset {
 	border-color: #fff #fff #b3b3b3 #b3b3b3;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
 	display:block;
+}
+
+
+.content:before {
+	content:"";
+	top:-50px;
+	left:0;
+	position:relative;
+	background:black;
+	border-width:0 25em 200px 25em;
+	border-style:solid;
+	border-color: #658E15 #fff;
+}
+
+.form {
+
+}*/
+
+.content:before {
+	content:"";
+	top:0;
+	left:0;
+	position:absolute;
+	border-width:0 25em 200px 25em;
+	border-style:solid;
+	border-color: #658E15 grey;
 }
